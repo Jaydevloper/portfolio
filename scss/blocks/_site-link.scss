@@ -11,6 +11,21 @@
   &:hover {
     opacity: 0.8;
   }
+  &--dowloand{
+    text-transform: uppercase;
+    &::before{
+      display: inline-block;
+      margin-right: 6px;
+      vertical-align: middle;
+      width: 27px;
+      height: 27px;
+      background-image: url('../../img/dowloand.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      content: '';
+  }
+    }
 }
 
 .site-link--bolder {

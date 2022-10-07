@@ -394,23 +394,6 @@ img {
   margin-right: auto;
 }
 
-.site-main__wrraper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-main__img {
-  border-radius: 50%;
-  background-color: rgba(133, 128, 128, 0.856);
-  cursor: pointer;
-  transition: box-shadow 0.5s ease, background-color 0.5s ease;
-}
-.site-main__img:hover {
-  box-shadow: 21px 6px 4px rgba(137, 137, 137, 0.8509803922);
-  background-color: rgba(133, 128, 128, 0.856);
-}
-
 .portfolio__list {
   margin: 0;
   padding: 0;
@@ -422,7 +405,7 @@ img {
 }
 
 .portfolio__item {
-  padding: 10px;
+  padding: 12px;
   border-radius: 4px;
   box-shadow: 0px 0px 17px 2px rgba(23, 23, 23, 0.18);
 }
@@ -476,21 +459,6 @@ img {
 }
 .site-link:hover {
   opacity: 0.8;
-}
-.site-link--dowloand {
-  text-transform: uppercase;
-}
-.site-link--dowloand::before {
-  display: inline-block;
-  margin-right: 6px;
-  vertical-align: middle;
-  width: 27px;
-  height: 27px;
-  background-image: url("../../img/dowloand.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: "";
 }
 
 .site-link--bolder {
