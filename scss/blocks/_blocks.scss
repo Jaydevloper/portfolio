@@ -1,6 +1,6 @@
-@import "visually-hidden";
-@import "container";
-@import 'site-main';
-@import "portfolio";
-@import "title";
-@import "site-link";
+@use "visually-hidden";
+@use "container";
+@use "site-main";
+@use "portfolio";
+@use "title";
+@use "site-link";
